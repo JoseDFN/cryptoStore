@@ -11,7 +11,7 @@ class HeaderComponent extends HTMLElement {
         <div class="card">
           <div class="card-header text-center">
             <h3>Nro Factura</h3>
-            <input type="text" id="nroFactura" class="form-control text-center mt-2" placeholder="Número de factura generado">
+            <input type="text" id="nroFactura" class="form-control text-center mt-2" placeholder="Número de factura generado" disabled readonly>
           </div>
           <div class="card-body">
             <form>
